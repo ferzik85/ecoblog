@@ -1,17 +1,27 @@
 import { postsMetadata } from "../../posts-metadata";
 import type { Post } from "@/types/postType";
+import Image from "next/image";
 
 export default function Post() {
-  const { title, date, author, imagePath, previewText } : Post = postsMetadata[1];
+  const { title, date, author, imagePath, previewText }: Post =
+    postsMetadata[1];
   return (
-      <article>
-       <ul>
+    <article>
+      <ul>
         <li>{title}</li>
         <li>{date}</li>
         <li>{author}</li>
-        <li>{imagePath}</li>
+        <li>
+          <Image
+            src={imagePath}
+            alt={title}
+            width={800}
+            height={600}
+            quality={100}
+          />
+        </li>
         <li>{previewText}</li>
       </ul>
-      </article>
+    </article>
   );
 }
