@@ -1,4 +1,4 @@
-import type { Post } from "../../types/postType";
+import type { Post } from "@/types/postType";
 import Link from "next/link";
 
 export default async function PostCard({

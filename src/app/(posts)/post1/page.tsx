@@ -1,5 +1,5 @@
 import { postsMetadata } from "../../posts-metadata";
-import type { Post } from "../../../types/postType";
+import type { Post } from "@/types/postType";
 
 export default function Post() {
   const { title, date, author, imagePath, previewText } : Post = postsMetadata[0];
