@@ -1,4 +1,5 @@
 import packageJson from '../../../package.json';
+import styles from './styles/footer.module.css'
 
 export default function Footer() {
   const date = new Date();
@@ -6,11 +7,12 @@ export default function Footer() {
   const version = packageJson.version;
 
   return (
-    <footer>
-      <div>© {date.getFullYear()} Sergey and Olga</div>
-      <div>All rights reserved. No reproduction without permission.</div>
-      <div>Ver. {version}</div>
-      <div>Date: {buildDate}</div>
+    <footer className={styles.footer}>
+      <div className={styles.container}>
+        <span className={styles.item}>© {date.getFullYear()} Sergey and Olga.</span>
+        <span className={styles.item}>All rights reserved. No reproduction without permission.</span>
+        <span className={styles.item}>Ver. {version} Date: {buildDate}</span>
+      </div>
     </footer>
   );
 }

@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.image {
+    margin: 10px 5px;
+}
+
+.text {
+    margin: 5px 5px;
+    text-align: justify; 
+}
+
+.metadata {
+    display: flex;
+    justify-content: space-between; 
+    margin: 10px 5px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--foreground);
+    font-size: 14px
+}

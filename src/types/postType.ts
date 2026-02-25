@@ -5,5 +5,5 @@ export interface Post {
   date: string;
   author: string;           
   imagePath: string;
-  previewText: string;
+  preview: string;
 }

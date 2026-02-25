@@ -1,0 +1,12 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--foreground);
+    margin: 30px 15px;
+    font-size: 18px
+}

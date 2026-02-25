@@ -1,12 +1,13 @@
 import Link from "next/link";
+import styles from './styles/header.module.css'
 
 export default function Header() {
   return (
     <header>
-      <nav>
-        <Link href="/">Blog</Link>
-        <Link href="/contact-me">Contact</Link>
-        <Link href="/about-me">About</Link>
+      <nav className={styles.nav}>
+        <Link className={styles.link} href="/">BLOG</Link>
+        <Link className={styles.link} href="/contact-me">CONTACT ME</Link>
+        <Link className={styles.link} href="/about-me">ABOUT ME</Link>
       </nav>
     </header>
   );
