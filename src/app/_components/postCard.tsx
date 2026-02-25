@@ -23,8 +23,8 @@ export default async function PostCard({
             src={imagePath}
             alt={title}
             width={800}
-            height={600}
-            quality={100}
+            height={400}
+            quality={75}
           />
         </li>
         <li>{previewText}</li>
