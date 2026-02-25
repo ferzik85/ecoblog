@@ -14,9 +14,9 @@ export default function Post() {
         <li><Image
           src={imagePath}
           alt={title}
-          width={800}
-          height={600}
-          quality={100}
+          width={1441}
+          height={727}
+          quality={75}
         /></li>
         <li>{previewText}</li>
       </ul>
