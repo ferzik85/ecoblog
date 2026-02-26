@@ -38,7 +38,6 @@ export default function ContactForm({ accessKey }: ContactMeProps) {
     <div className={styles.container}>
       <div className={styles.card}>
         <h1 className={styles.title}>Contact Form</h1>
-         <h1 className={styles.title}>{accessKey}</h1>
         <form onSubmit={onSubmit} className={styles.form}>
           <input
             name="name"
