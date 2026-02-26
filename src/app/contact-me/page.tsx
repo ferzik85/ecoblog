@@ -35,6 +35,7 @@ export default function ContactMe() {
     <div className={styles.container}>
       <div className={styles.card}>
         <h1 className={styles.title}>Contact Form</h1>
+        <h1 className={styles.title}>{WEB3FORMS_ACCESS_KEY}</h1>
         <form onSubmit={onSubmit} className={styles.form}>
           <input
             name="name"
