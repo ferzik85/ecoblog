@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.form {
+  max-width: 760px;
+  margin: 0 0 40px 0;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #d9d9d9;
+  padding: 10px 12px;
+  font-size: 16px;
+  color: #111;
+  margin: 12px 0 28px 0;
+  font-family: var(--fontfamily);
+}
+
+.input {
+  height: 40px;
+}
+
+.textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.submit {
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  display: inline-block;
+}
+
+.submit:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.status {
+  margin-top: 16px;
+  font-family: var(--fontfamily);
+}
