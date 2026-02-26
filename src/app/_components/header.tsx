@@ -6,8 +6,8 @@ export default function Header() {
     <header>
       <nav className={styles.nav}>
         <Link className={styles.link} href="/">BLOG</Link>
-        <Link className={styles.link} href="/contact-me">CONTACT ME</Link>
-        <Link className={styles.link} href="/about-me">ABOUT ME</Link>
+        <Link className={styles.link} href="/contact-me">CONTACT</Link>
+        <Link className={styles.link} href="/about-me">ABOUT</Link>
       </nav>
     </header>
   );
