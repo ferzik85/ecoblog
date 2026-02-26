@@ -9,13 +9,14 @@ export default function AboutMe() {
           <div>
             <h1 className={styles.title}>About Me</h1>
           </div>
-          <div className={styles.image}>
+          <div className={styles.imageContainer}>
             <Image
               src="/assets/about/avatar.webp"
               alt="About Me"
               width={400}
               height={400}
               quality={100}
+              className={styles.image}
             />
           </div>
           <div className={styles.text}>

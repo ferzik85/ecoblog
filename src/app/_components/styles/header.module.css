@@ -12,6 +12,7 @@
     transition: color 0.2s;
     margin: 30px 15px;
     border-radius: 8px;
+    font-weight: 900;
 }
 
 .link:hover, .link:focus {

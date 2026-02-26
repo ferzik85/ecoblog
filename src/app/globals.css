@@ -3,7 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --fontfamily: "Cascadia Mono", "Cascadia Code", "Consolas", "Adelle", 'Courier New', Courier, "Roboto Slab", "DejaVu Serif", "Georgia", "Times New Roman", sans-serif, monospace;
+  --fontfamily: "Adelle", 'Courier New', Courier, "Roboto Slab", "DejaVu Serif", "Georgia", "Times New Roman", sans-serif, monospace;
 }
 
 body {
