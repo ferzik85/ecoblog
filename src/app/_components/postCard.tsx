@@ -8,6 +8,8 @@ export default async function PostCard({
   title,
   date,
   imagePath,
+  imageWidth,
+  imageHeight,
   preview,
 }: Post) {
   return (
@@ -15,12 +17,12 @@ export default async function PostCard({
       <div>
         <h1 className={styles.title}>{title}</h1>
       </div>
-      <div className={styles.image}>
-        <Image
+      <div className={styles.imageContainer}>
+        <Image className={styles.image}
           src={imagePath}
           alt={title}
-          width={800}
-          height={400}
+          width={imageWidth}
+          height={imageHeight}
           quality={75}
         />
       </div>
