@@ -11,7 +11,7 @@ export default function Footer() {
       <div className={styles.container}>
         <span className={styles.item}>© {date.getFullYear()} Sergey and Olga.</span>
         <span className={styles.item}>All rights reserved. No reproduction without permission.</span>
-        <span className={styles.item}>Ver. {version} Date: {buildDate}</span>
+        <span className={`${styles.item} ${styles.hidden}`}>Ver. {version} Date: {buildDate}</span>
       </div>
     </footer>
   );

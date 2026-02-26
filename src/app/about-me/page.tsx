@@ -11,7 +11,7 @@ export default function AboutMe() {
           </div>
           <div className={styles.image}>
             <Image
-              src="/assets/about/avatar1.webp"
+              src="/assets/about/avatar.webp"
               alt="About Me"
               width={400}
               height={400}
