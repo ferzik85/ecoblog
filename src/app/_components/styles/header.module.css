@@ -6,7 +6,15 @@
 
 .link {
     text-decoration: none;
-    color: var(--foreground);
+    color: #2a7ae2;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    transition: color 0.2s;
     margin: 30px 15px;
-    font-size: 18px
+    border-radius: 8px;
+}
+
+.link:hover, .link:focus {
+    color: #174ea6;
+    text-decoration: none;
 }
