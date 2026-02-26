@@ -12,7 +12,6 @@ export default function ContactMe() {
     setStatus("Sending...");
     const form = e.currentTarget;
     const fd = new FormData(form);
-    console.log(WEB3FORMS_ACCESS_KEY);
     fd.append("access_key", WEB3FORMS_ACCESS_KEY);
     fd.append("subject", "New message sent from EcoBlog");
     fd.append("from_name", String(fd.get("name") || "Website Visitor"));
@@ -37,6 +36,7 @@ export default function ContactMe() {
     <div className={styles.container}>
       <div className={styles.card}>
         <h1 className={styles.title}>Contact Form</h1>
+        <h1 className={styles.title}>{WEB3FORMS_ACCESS_KEY}</h1>
       <form onSubmit={onSubmit} className={styles.form}>
         <input
           name="name"
