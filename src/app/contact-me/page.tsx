@@ -12,6 +12,7 @@ export default function ContactMe() {
     setStatus("Sending...");
     const form = e.currentTarget;
     const fd = new FormData(form);
+    console.log(WEB3FORMS_ACCESS_KEY);
     fd.append("access_key", WEB3FORMS_ACCESS_KEY);
     fd.append("subject", "New message sent from EcoBlog");
     fd.append("from_name", String(fd.get("name") || "Website Visitor"));
