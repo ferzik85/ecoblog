@@ -9,13 +9,6 @@ export default async function Posts() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.welcome}>
-        <div>
-          WELCOME, LUBIMKA<span>❤️</span>
-        </div>
-        <div>HAPPY INTERNATIONAL WOMEN’S DAY!</div>
-        <div>THIS SITE IS MY GIFT FOR YOU</div>
-      </div>
       {listItems}
     </div>
   );
